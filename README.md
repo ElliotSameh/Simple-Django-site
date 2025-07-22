@@ -97,7 +97,6 @@ If you run into issues with checkboxes not saving, confirm that:
 * Template checkbox names match what the view expects
 * You handle unchecked boxes (they don't show up in POST)
 
----
 
 ---
 
