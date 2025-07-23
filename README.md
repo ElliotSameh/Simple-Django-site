@@ -1,6 +1,7 @@
 # Django To‑Do List (Educational Project)
 
 A tiny Django app built for learning purposes: create lists, add items, check/uncheck them, and save the state. This repo is meant to demonstrate basic Django patterns (views, models, forms, templates)
+I created this site to teach basics of Django.
 
 ---
 
