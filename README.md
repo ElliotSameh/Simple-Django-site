@@ -7,26 +7,26 @@ I created this site to teach basics of Django.
 
 ## ✨ Features
 
-* Create multiple to‑do lists
-* Add, check, and uncheck items
-* Persist state in a SQLite database (default)
-* Basic Django templating and CSRF protection
-* Clear, minimal code for beginners to read and modify
+- Create multiple to‑do lists
+- Add, check, and uncheck items
+- Persist state in a SQLite database (default)
+- Basic Django templating and CSRF protection
+- Clear, minimal code for beginners to read and modify
 
 ---
 
 ## 🎯 Purpose
 
-This project exists **for educational purposes only**. Feel free to fork it, experiment, and break things—then fix them! It’s a great sandbox to practice Django, HTML forms, and version control with Git.
+This project exists **for educational purposes only**. Feel free to fork it, experiment, and break things—then fix them! It’s a great sandbox to practice Django, HTML forms, and version control with Git. Hope you enjoy!
 
 ---
 
 ## 🧰 Tech Stack
 
-* **Python** ≥ 3.10
-* **Django** (see `requirements.txt`)
-* **SQLite** (default local DB)
-* **HTML/CSS** with Django templates
+- **Python** ≥ 3.10
+- **Django** (see `requirements.txt`)
+- **SQLite** (default local DB)
+- **HTML/CSS** with Django templates
 
 ---
 
@@ -51,7 +51,6 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ### 4. Apply migrations & run the server
 
@@ -80,7 +79,7 @@ Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 │   ├── create.html
 │   └── ...
 ├── mysite/          # Project root and Django project config (settings, urls, wsgi)
-├── manage.py        
+├── manage.py
 ├── requirements.txt
 └── README.md
 ```
@@ -95,9 +94,8 @@ Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 If you run into issues with checkboxes not saving, confirm that:
 
-* Template checkbox names match what the view expects
-* You handle unchecked boxes (they don't show up in POST)
-
+- Template checkbox names match what the view expects
+- You handle unchecked boxes (they don't show up in POST)
 
 ---
 
@@ -105,8 +103,8 @@ If you run into issues with checkboxes not saving, confirm that:
 
 If you want this live on the internet (not just on localhost):
 
-* **Render / Railway / Fly.io / Koyeb / Deta**: connect your GitHub repo and they auto-deploy.
-* Add a `Procfile` (for Gunicorn) and configure environment variables (SECRET\_KEY, DEBUG, DATABASE\_URL, etc.).
+- **Render / Railway / Fly.io / Koyeb / Deta**: connect your GitHub repo and they auto-deploy.
+- Add a `Procfile` (for Gunicorn) and configure environment variables (SECRET_KEY, DEBUG, DATABASE_URL, etc.).
 
 Example `Procfile`:
 
@@ -130,30 +128,29 @@ python manage.py test
 
 PRs are welcome! Keep it beginner-friendly:
 
-* Comment your code
-* Follow Django best practices
-* Update this README when you add features
-
+- Comment your code
+- Follow Django best practices
+- Update this README when you add features
 
 ---
 
 ## 📚 Resources
 
-* [Django Official Docs](https://docs.djangoproject.com/)
-* [Git Official Docs](https://git-scm.com/doc)
-* [VS Code Python](https://code.visualstudio.com/docs/python/python-tutorial)
+- [Django Official Docs](https://docs.djangoproject.com/)
+- [Git Official Docs](https://git-scm.com/doc)
+- [VS Code Python](https://code.visualstudio.com/docs/python/python-tutorial)
 
 ---
 
 ## TODO / Roadmap (Ideas)
 
-* Add user authentication
-* Add due dates & categories for items
-* Add search/filter functionality
-* Add API endpoints (Django REST Framework)
-* Add tests & CI (GitHub Actions)
+- Add user authentication
+- Add due dates & categories for items
+- Add search/filter functionality
+- Add API endpoints (Django REST Framework)
+- Add tests & CI (GitHub Actions)
 
 ---
+
 My name is Mahdi
 Happy coding! 🚀
-
